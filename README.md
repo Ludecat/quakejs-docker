@@ -30,6 +30,12 @@ docker run -d --name quakejs -e SERVER=<SERVER_NAME_OR_IP> -e HTTP_PORT=<HTTP_PO
 docker run -d --name quakejs -e SERVER=10.0.0.2 -e HTTP_PORT=8080 -p 8080:80 -p 27960:27960 treyyoder/quakejs:latest
 ```
 
+##### Ludecat:
+
+```
+docker run -d --name quakejs -e SERVER=io-games.lude.cat/quake-server -e HTTP_PORT=80 -p 8080:80 -p 27960:27960 ludecat/quakejs:latest
+```
+
 Send all you friends/coworkers the link: ex. http://10.0.0.2:8080 and start fragging ;)
 
 #### server.cfg:
